@@ -1,0 +1,47 @@
+# Excel临时文件
+Table.xls
+Table1.xls
+rt/复盘图表.xlsx
+.env
+
+# 策略输出
+strategy_*.md
+
+# Python缓存
+__pycache__/
+py/__pycache__/
+py/core/__pycache__/
+
+# 采集器临时数据
+py/collectors/*.txt
+py/collectors/*.csv
+py/collectors/*.json
+
+# 数据目录临时文件
+py/data/*.txt
+py/data/*.csv
+py/data/*.json
+
+# 自动生成的配置/数据文件
+py/config/candidate_scores.json
+py/config/history.json
+py/config/price_history.csv
+py/history.json
+py/price_history.csv
+
+# 旧版遗留
+py/last_strategy_date.txt
+
+# ===== 仅保留核心配置与锚点 =====
+!py/config/config.json
+!py/config/global_anchor.jsontest_output.md
+*.patch
+py/feeds/
+
+test_output.md
+server.log
+py/config/custom_prompt.txt
+py/data/feeds/
+server.log
+py/config/evolution_log.txt
+tmp.sh
