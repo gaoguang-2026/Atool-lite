@@ -45,3 +45,8 @@ py/data/feeds/
 server.log
 py/config/evolution_log.txt
 tmp.sh
+
+服务器-*.bat
+服务器-*.vbs
+py/backup/交易复盘记录*.xlsx
+py/backup/~$交易复盘记录*.xlsx
